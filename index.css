@@ -6,3 +6,9 @@ footer{
     color: white;
 }
 
+.landing{
+    text-align: center;
+   background-image: url(./assets/landing.jpg);
+color: white;
+font-family: sans-serif;
+}
