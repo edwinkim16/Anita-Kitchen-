@@ -28,4 +28,12 @@ font-family: sans-serif;
     background-image: url("./assets/foodsBg.jpg");
     background-size: cover;
 }
-
+#fourfood,ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 35px;
+    padding: 4px;
+    align-items: center;
+}
