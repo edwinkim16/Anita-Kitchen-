@@ -52,11 +52,7 @@ font-family: sans-serif;
     flex-direction: column;
     float: left;
 }
-#drinkimage{
-    display: flex;
-   
-    
-}
+
 .foodtype{
     display: flex;
 }
@@ -79,7 +75,15 @@ font-family: sans-serif;
     height: 80px;
     align-content: center;
     
-    
+}
+
+#drinkimage{
+    display: flex;
+    flex-direction: row;
+}
+#wealso{
+    float: left;
+    width: 1000px;
 }
 
 
