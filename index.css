@@ -12,3 +12,13 @@ footer{
 color: white;
 font-family: sans-serif;
 }
+
+.customer{
+    display: flex;
+}
+.customer,h2{
+    color: #F15A29;
+}
+*.customer,p{
+    color: black;
+}
