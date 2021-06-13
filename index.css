@@ -17,6 +17,7 @@ font-family: sans-serif;
     display: flex;
     background-color: white;
     box-shadow: 2px 2px 5px white;
+    background-repeat: no-repeat;
 }
 .customer,h2{
     color: #F15A29;
@@ -32,8 +33,19 @@ font-family: sans-serif;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: black;
     height: 35px;
     padding: 4px;
     align-items: center;
+    font-family: sans-serif;
+    background-color: whitesmoke;
 }
+#imagefood{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+}
+
+
