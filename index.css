@@ -50,8 +50,14 @@ font-family: sans-serif;
 #cakes{
     display: flex;
     flex-direction: column;
+    float: left;
 }
 #drinkimage{
+    display: flex;
+   
+    
+}
+.foodtype{
     display: flex;
 }
 .meal{
