@@ -47,5 +47,33 @@ font-family: sans-serif;
     margin: auto;
 
 }
+#cakes{
+    display: flex;
+    flex-direction: column;
+}
+#drinkimage{
+    display: flex;
+}
+.meal{
+    display: flex;
+   
+    margin-top: 0%;
+}
+#party{
+    background-color: #F15A29;
+    padding: 4px;
+    height: 80px;
+    font-size: 30px;
+    color: white;
+}
+#happy{
+    background-color: #E5E5E5;
+    width: 400px;
+    font-size: 30px;
+    height: 80px;
+    align-content: center;
+    
+    
+}
 
 
