@@ -28,14 +28,28 @@ width: 100%;
     padding: 50px;
     margin: 30px;
 }
+span {
+    content: "\003C";
+    color: red;
+  }
 .customer h2{
     color: #F15A29;
 }
 
 .menu{
-    background-image: url("./assets/foodsBg.jpg");
+    background-image: url(assets/foodsBg.jpg);
     background-size: cover;
+    border:2px solid black;
+    width:100%;
+    height:70vh;
+    
    
+}
+.fourfood{
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 #fourfood,ul{
     list-style: none;
@@ -207,8 +221,9 @@ width: 100%;
     background-size: cover;
     color: white;
     text-align: center;
-    
+    width: 100%;
     justify-content: space-evenly;
+    ;
 }
 #feedback{
     width: fit-content;
@@ -221,4 +236,7 @@ width: 100%;
 }
 #email{
     text-align: center;
+}
+#fast{
+    background-color: white;
 }
