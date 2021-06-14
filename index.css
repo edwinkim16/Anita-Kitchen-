@@ -49,6 +49,10 @@ width: 100%;
     margin: auto;
 
 }
+#imagefood h2{
+    color: #F15A29;
+}
+
 #cakes{
     display: flex;
     flex-direction: column;
