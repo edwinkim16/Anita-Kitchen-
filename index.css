@@ -1,6 +1,6 @@
 footer{
     background-color: #F15A29;
-    margin-top: 200px;
+    margin-top: 0px;
     padding: 20px;
     text-align: center;
     color: white;
@@ -11,6 +11,7 @@ footer{
    background-image: url(./assets/landing.jpg);
 color: white;
 font-family: sans-serif;
+width: 100%;
 }
 
 .customer{
@@ -18,13 +19,13 @@ font-family: sans-serif;
     background-color: white;
     box-shadow: 2px 2px 5px white;
     background-repeat: no-repeat;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .customer,h2{
     color: #F15A29;
 }
-*.customer,p{
-    color: black;
-}
+
 .menu{
     background-image: url("./assets/foodsBg.jpg");
     background-size: cover;
@@ -85,5 +86,19 @@ font-family: sans-serif;
     float: left;
     width: 1000px;
 }
-
-
+.subscribe{
+    background-image: url('./assets/subscribe.jpg');
+    height: 250px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+#feedback{
+    width: fit-content;
+}
+#aboutmenu{
+    width: fit-content;
+}
