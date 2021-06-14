@@ -69,17 +69,53 @@ width: 100%;
     box-shadow: 10px 10px 10px grey;
 }
 #fastfood{
-    margin-right: 40px;
+    width: -20%;
+    box-sizing: content-box;
+    border-radius: 5px;
+    
+    box-shadow: 10px 10px 10px grey;
+    height: 390px;
+    
 }
 
 .foodtype{
     display: flex;
     width: 80%;
     margin-top: 10px;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
+    margin-left: 8%;
 }
+#wealso{
+    float: left;
+    width: -20%;
+    box-sizing: content-box;
+    border-radius: 5px;
+    
+    box-shadow: 10px 10px 10px grey;
+    height: 400px;
+    
+}
+#drinks{
+    width: 100px;
+    margin-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 8%;
+    height: 100px;
+}
+#drinkimage{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    border: 20px solid whitesmoke;
+    box-shadow: 10px 10px 10px grey;
+    width: 500px;
+}
+
+
 #viewf{
     background-color: white;
     border: 2px solid #F25D2A;
@@ -95,6 +131,9 @@ width: 100%;
     padding: 5px;
 
 }
+.drinks{
+    margin-left: 8%;
+}
 .meal{
     display: flex;
     justify-content: space-evenly;
@@ -109,12 +148,18 @@ width: 100%;
 }
 .breakfast p{
     color: white;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 .lunch p{
     color: white;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 .dinner p{
     color: white;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 .lunch{
     background-image: url('./assets/lunch.jpg');
@@ -134,11 +179,13 @@ width: 100%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    
+    
 }
 #partyt{
     background-color: #F15A29;
     width: 376px;
-    height: 80px;
+    height: 105px;
     font-size: 30px;
     color: white;
 }
@@ -146,22 +193,12 @@ width: 100%;
     background-color: #E5E5E5;
     width: 376px;
     font-size: 30px;
-    height: 80px;
+    height: 105px;
     
 }
 
-#drinkimage{
-    display: flex;
-    flex-direction: row;
-    border-radius: 5px;
-    border: 20px solid whitesmoke;
-    box-shadow: 10px 10px 10px grey;
-}
-#wealso{
-    float: left;
-    width: 1000px;
-    padding-right: 10px;
-}
+
+
 .subscribe{
     background-image: url('./assets/subscribe.jpg');
     height: 250px;
@@ -169,7 +206,8 @@ width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    display: flex;
+    text-align: center;
+    
     justify-content: space-evenly;
 }
 #feedback{
@@ -180,4 +218,7 @@ width: 100%;
 }
 #aboutmenu,p{
     color: black;
+}
+#email{
+    text-align: center;
 }
