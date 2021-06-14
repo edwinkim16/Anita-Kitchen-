@@ -14,6 +14,7 @@ font-family: sans-serif;
 width: 100%;
 }
 
+
 .customer{
     display: flex;
     background-color: white;
@@ -22,7 +23,7 @@ width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
 }
-.customer,h2{
+.customer h2{
     color: #F15A29;
 }
 
@@ -101,4 +102,7 @@ width: 100%;
 }
 #aboutmenu{
     width: fit-content;
+}
+#aboutmenu,p{
+    color: black;
 }
